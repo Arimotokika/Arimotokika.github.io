@@ -1,0 +1,295 @@
+%-------------------------
+% Resume in Latex
+% Author : Most. Sonia Khatun
+% Based on template by Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\relax 
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Define blue color for headings
+\definecolor{sectionColor}{RGB}{0, 70, 140}
+
+% Sections formatting with blue color
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\color{sectionColor}
+}{}{0em}{}[\color{sectionColor}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Most. Sonia Khatun} \\ \vspace{3pt}
+    \small
+    \textcolor{blue}{
+    \faMobile \hspace{.5pt} [+880 1818-373416]
+    $|$
+    \faAt \hspace{.5pt} [soniakhatun94358@gmail.com]
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/Y2rYgUQSETZuyAr7A}{Dhaka, Bangladesh}
+    \\ \vspace{1pt}
+    \faGithub \hspace{.5pt} \href{https://github.com/Arimotokika}{github/Arimotokika}
+    $|$
+    \faLinkedin \hspace{.5pt} [linkedin/arimotokika]
+    $|$
+    \faGraduationCap \hspace{.5pt} [scholar/R04t\_Z8AAAAJ]
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://arimotokika.github.io/}{arimotokika.github.io}
+    }
+\end{center}
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bangladesh University of Engineering and Technology (BUET)}{Dhaka, Bangladesh}
+      {M.Sc. in Computer Science and Engineering (Part-time, Admitted)}{April 2026 Session}
+
+    \resumeSubheading
+      {Bangladesh University of Engineering and Technology (BUET)}{Dhaka, Bangladesh}
+      {B.Sc. in Computer Science and Engineering; \textbf{CGPA: 3.74/4.00} }{2026}
+
+    \resumeSubheading
+      {Rajshahi College}{Rajshahi, Bangladesh}
+      {Higher Secondary School Certificate (HSC); \textbf{GPA: 5.00/5.00}}{2020}
+
+    \resumeSubheading
+      {Mougachi High School}{Rajshahi, Bangladesh}
+      {Secondary School Certificate (SSC); \textbf{GPA: 5.00/5.00}}{2018}
+
+      
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming Languages:}{ C/C++, Java, Python, JavaScript, SQL, HTML} \\ \vspace{3pt}
+        
+        \textbf{Frameworks \& Technologies:}{ Express, React, React Native, Spring Boot, Next.js, FastAPI, JavaFX} \\ \vspace{3pt}
+        
+        \textbf{Databases \& Cloud:}{ MySQL, Oracle Database, Docker, Azure} \\ \vspace{3pt}
+        
+        \textbf{ML/DL \& AI:}{ PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, Fine-Tuning} \\ \vspace{3pt}
+        
+        \textbf{Tools \& Version Control:}{ Git, GitHub, CI/CD, GitHub Actions, Expo Application Service} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- ACHIEVEMENTS -----------
+
+\section{Achievements}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Eco-Tech Hackathon 2026 (Environment Watch: BUET) $|$
+      \faGithub \, \emph{\href{https://github.com/Arimotokika/NodiWatch}{\color{blue}GitHub}}}{Dhaka, Bangladesh}
+      {1st Runner-Up, Team AlphaVerse}{2026}
+        \resumeItemListStart
+            \resumeItem{Secured \textbf{1st Runner-Up} by building \textbf{NodiWatch}, a tri-layer satellite surveillance system for river pollution, encroachment, and erosion monitoring.}
+            \resumeItem{Built and deployed an end-to-end prototype using Next.js + FastAPI with \textbf{Google Earth Engine} pipelines over Sentinel-2 (optical) and Sentinel-1 (SAR) data.}
+            \resumeItem{Used core analytical models: MNDWI, spectral-index, SAR coherence.}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+%----------- RESEARCH -----------
+
+\section{Research}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Recognizing Graph Properties Through Visual Certificates}{Dhaka, Bangladesh}
+    {UG Thesis; Supv: Dr. Md. Saidur Rahman (BUET); Collab: Dr. Abu Reyan Ahmed (U. Arizona)}{2026}
+    \resumeItemListStart
+      \resumeItem{Built a benchmark of \textbf{24,000 images spanning 8 graph properties}, comparing positive visual certificates, same-layout negatives, and counter-certificates explicitly showing property absence.}
+      \resumeItem{Used \textbf{Visual Proof Gain (VPG)} to assess whether \textbf{zero-shot MLLMs} identify property absence more reliably from counter-certificates than from same-layout negatives, without task-specific training; subsequently analyzed \textbf{visual bias} through MLLM fine-tuning and supervised vision-model training.}
+      \resumeItem{\textbf{Accepted short paper (ICAA 2027):} \emph{Learning from Visual Proofs: Neural Models for Network Property Verification}. \textbf{Co-first author} with Ahmmad Nur Swapnil.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Bengali-Loop: Long-Form Bangla ASR and Speaker Diarization}{Dhaka, Bangladesh}
+    {Dataset contributor, community benchmark paper}{2026}
+    \resumeItemListStart
+      \resumeItem{Contributed to Bengali-Loop, a community benchmark for long-form Bangla automatic speech recognition and speaker diarization using realistic multi-speaker content.}
+      \resumeItem{Helped curate a \textbf{158.6-hour corpus} (191 recordings and 792k words from 11 YouTube channels) using human-in-the-loop verification; preprint: \href{https://arxiv.org/abs/2602.14291}{\color{blue}arXiv:2602.14291}.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Iterative Refinement \& Hybrid GA for Weapon-Target Assignment}
+    {Dhaka, Bangladesh}
+    {Course Research, CSE462}
+    {2026}
+    \resumeItemListStart
+      \resumeItem{Proposed \textbf{MMR-IR}, combining MMR greedy with tie-breaking and 1-opt/2-opt local search using O(1) incremental evaluation; significant in all 9 benchmark categories under Wilcoxon test, $\alpha=0.05$.}
+      \resumeItem{Proposed a \textbf{Hybrid GA} with MMR seeding, elitism, stagnation-triggered re-diversification, and threat-proportional mutation, achieving 28.73\% and 37.42\% gains on medium and large tiers.}
+      \resumeItem{Open-sourced a 180-instance benchmark across 9 categories using 3 size tiers and 3 weapon-availability scenarios.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+        {\textbf{SecureHerAI: Women's Safety Platform} $|$ \emph{React Native, Spring Boot, Azure} $|$ 
+        \faGithub \, \emph{\href{https://github.com/cse408-project/SecureHerAI}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Developed comprehensive safety platform with SOS alerts, incident reporting, trusted contacts management, live map tracking, and safety heatmaps.}
+            \resumeItem{Built secure REST API with JWT authentication, Google OAuth, and multi-channel notifications.}
+            \resumeItem{Deployed with CI/CD pipeline using GitHub Actions, EAS, Docker, and Azure VM with custom domain.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Deep Learning Side-Channel Attack} $|$ \emph{Python, PyTorch, Flask} $|$
+        \faGithub \, \emph{[\color{blue}GitHub]}}{}
+          \resumeItemListStart
+            \resumeItem{Implemented a deep learning CNN to recover cryptographic key bytes from power side-channel traces.}
+            \resumeItem{Built a trace collection and labeling pipeline for supervised training on hardware side-channel data.}
+            \resumeItem{Developed a Flask + JavaScript interface to demonstrate the attack and visualize key byte predictions.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{TCP-SYN Flood Attack \& Mitigation} $|$ \emph{Python, Network Security} $|$
+        \faGithub \, \emph{[\color{blue}GitHub]}}{}
+          \resumeItemListStart
+            \resumeItem{Implemented a TCP-SYN flood attack from scratch and evaluated its impact on server availability under varying traffic loads.}
+            \resumeItem{Designed and tested mitigation strategies including SYN cookies and connection rate limiting, reducing attack effectiveness significantly.}
+            \resumeItem{Analyzed packet-level network behavior using Wireshark to validate attack and defense mechanisms.}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+%----------- EXPERIENCE -----------
+\section{Experience}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+      {Lecturer, Department of Software Engineering (SWE)}{Dhaka, Bangladesh}
+      {Green University of Bangladesh (GUB) $|$
+      \href{https://swe.green.edu.bd/faculties/most-sonia-khatun}{\color{blue}Faculty Profile}}
+      {October 2026 \textbf{--} Present}
+        \resumeItemListStart
+            \resumeItem{Teach core CSE courses including Database Management Systems, Structured Programming, Assembly Language Programming, and Digital Logic Design through theory and laboratory sessions.}
+            \resumeItem{Develop course materials and laboratory exercises, and evaluate students through practical work and assessments.}
+        \resumeItemListEnd
+
+  \resumeSubheading
+      {Lecturer, Department of AI \& Data Science}{Dhaka, Bangladesh}
+      {Dhaka International University (DIU) $|$
+      \href{https://profile.diu.ac/most.soniakhatun}
+      {\color{blue}Faculty Profile}}
+      {Sep 2026 \textbf{--} October 2026}
+        \resumeItemListStart
+            \resumeItem{Teach undergraduate courses in software engineering, mobile application development, cybersecurity, and other software-oriented computing subjects.}
+            \resumeItem{Conduct both theory and laboratory sessions, emphasizing software design, development practices, application development, and security concepts.}
+            \resumeItem{Prepare lectures, laboratory exercises, assessments, and project-based activities to strengthen students' practical and analytical skills.}
+        \resumeItemListEnd
+
+  \resumeSubheading
+    {Programming Instructor}{Dhaka, Bangladesh}
+    {Private Tutor for Computer Science Courses}{2023 \textbf{--} 2026}
+      \resumeItemListStart
+          \resumeItem{Tutored undergraduate students from BRAC University, UAP, and other CSE-interested students across various computer science disciplines.}
+          \resumeItem{Delivered hands-on sessions in programming fundamentals, data structures, algorithms, ML/DL, and full-stack development; multiple students improved their course performance significantly.}
+          \resumeItem{Guided students through capstone projects and university assignments, with emphasis on clean implementation, conceptual understanding, and problem-solving skills.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------- REFERENCES -----------
+
+%-------------------------------------------
+\end{document}
