@@ -1,1 +1,1 @@
-"# Arimotokika.github.io" 
+# Arimotokika.github.io
